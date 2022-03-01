@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://cdn2.vectorstock.com/i/1000x1000/64/06/abstract-red-arrow-shadow-line-on-black-vector-23996406.jpg);
+        }
+        
+.control{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+.control input{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+.custom{
+    position: absolute;
+    background-color: rgb(241, 0, 0);
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+label, input {
+    display: block;
+    color: rgb(3, 3, 3);
+    padding: 5px;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+}
+
+
+label, select{
+    color: blue;
+    display: block;
+    padding: 5px;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    border-radius: 50px;
+}
+.select{
+    color: blue;
+    display: block;
+    padding: 5px;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    border-radius: 50px;
+
+}
+
+label, textarea{
+    color: rgb(228, 228, 228);
+    display: block;
+    position: relative;
+    left: 500px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.text1{
+    
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 100px;
+}
+.text1:hover{
+   color: yellow;
+}
+label, select{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+    button{
+        border-radius: 5px;
+        padding: 10px;
+        background-image: linear-gradient(rgb(38, 0, 255), rgb(255, 255, 255), rgb(38, 255, 0));
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 1px solid teal;
+        width: 5%;
+        margin-top: 10px;
+        padding: 10px;
+        font-weight: 25;
+        position: relative;
+        left: 50%;
+    }
+    button:hover{
+        background-image: linear-gradient(green, white, blue);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .text1{
+        text-align: center;
+        font-size: 100px;
+    }
+    </style>
+</head>
+<body>
+<div>
+    <h1 class="text1">Ro'yhatdan o'tish</h1>
+    <label for="fisrname">Ism</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Ismingiz"> <br>
+    <label for="lastname">Familiya</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Familiya"> <br>
+    <label for="tel raqam">Elektron pochtangiz</label>
+    <input type="email" name="firstname" placeholder="E-mail">
+    <label for="">Yosh, Oy, Yil</label>
+    <input type="date" name="" id="">
+    <label for="cuntry">Davlat</label>
+    <select class="select" name="country" id="country">
+        <option value="UZB">Uzbekistan</option>
+        <option value="RUS">Russia</option>
+        <option value="USA">AQSH</option>
+        <option value="KAZAK">Kazakstan</option>
+        <option value="Tojik">Tojikiston</option>
+        <option value=""></option> <br>
+    </select> <br> <br>
+    <label for="textaria">O'zingiz haqingizda ma'lumot kiriting </label> <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea> <br> <br>
+    <button>
+        JO'NATISH
+    </button>
+</div>
+</body>
+</html>

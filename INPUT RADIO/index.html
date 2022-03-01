@@ -1,0 +1,80 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-control{
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 35px;
+            font-size: 20px;
+            cursor: pointer;
+            color: red;
+            font-weight: 900;
+        }
+        .form-control  input{
+            cursor: pointer;
+            opacity: 0;
+            position: absolute;
+        }
+        .custom-radio{
+            position: absolute;
+            background-color: rgb(255, 211, 17);
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            top: 0;
+            left: 0;
+        }
+        .form-control:active input ~ .custom-radio{
+            background-color: rgb(235, 10, 10);
+        }
+        .form-control inputchecked ~ .custom-radio{
+            background-color: blue;
+        }
+        .custom-radio:after{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: burlywood;
+            display: none;
+             content: "none";
+            }
+            .form-control inputchecked ~ .custom-radio{
+                display: block;
+            }
+            </style>
+</head>
+<body>
+    <label class="form-control" for="name1">ABROR 
+        <input type="radio" checked="checked" name="radio" id="name1">
+        
+        
+        
+        
+        <span class="custom-radio"></span>
+
+    </label>
+    <label class="form-control" for="name2">SARDOR 
+        <input type="radio" checked="checked" name="radio" id="name2">
+       
+        <span class="custom-radio"></span>
+        
+    </label>
+    <label class="form-control" for="name3">SOBIR 
+        <input type="radio" checked="checked" name="radio" id="name3">
+        
+        <span class="custom-radio"></span>
+        
+            </label>    
+    
+   
+</body>
+</html>

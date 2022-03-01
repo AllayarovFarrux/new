@@ -1,0 +1,12 @@
+
+
+
+#Ism, .lname, #country {
+    width: 99%;
+    height: 30px;
+}
+button{
+    background-image: linear-gradient(red, yellow);
+    border: none;
+    padding: 10px 20px;  
+}
